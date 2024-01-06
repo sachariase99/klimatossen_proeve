@@ -1,0 +1,43 @@
+.co2 {
+  position: relative;
+  background-color: var(--co2-bg);
+  color: white;
+}
+.co2 h2 {
+  text-align: center;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+.co2 .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 60px 0 60px 0;
+}
+.co2 .grid .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.co2 .grid .text h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.co2 .grid .text p {
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+.co2 .grid .text .readmore {
+  position: absolute;
+  bottom: 18%;
+  right: 14%;
+  font-weight: 600;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.co2 > img {
+  width: 100%;
+  padding-top: 20px;
+}/*# sourceMappingURL=co2.css.map */

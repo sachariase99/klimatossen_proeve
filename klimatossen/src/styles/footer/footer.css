@@ -1,0 +1,101 @@
+@charset "UTF-8";
+.footer {
+  background-color: var(--nav-bg);
+  color: #fff;
+}
+.footer .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+}
+.footer .grid .about h3 {
+  font-size: 2rem;
+  margin: 0 0 20px 0;
+  font-weight: 600;
+}
+.footer .grid .about p {
+  font-size: 1.8rem;
+}
+.footer .grid .about h2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 20px 0 10px 0;
+}
+.footer .grid .about .links {
+  display: flex;
+  flex-direction: column;
+}
+.footer .grid .about .links a {
+  color: white;
+  font-size: 1.8rem;
+}
+.footer .grid .about h1 {
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+.footer .grid .about h1 span {
+  color: var(--header-bg);
+}
+.footer .grid .form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  row-gap: 10px;
+}
+.footer .grid .form h3 {
+  font-size: 2rem;
+}
+.footer .grid .form input {
+  padding: 10px;
+  font-weight: 300;
+  background-color: var(--header-bg);
+  border: none;
+}
+.footer .grid .form input::-moz-placeholder {
+  font-size: 1.3rem;
+  color: #fff;
+  opacity: 0.4;
+}
+.footer .grid .form input::placeholder {
+  font-size: 1.3rem;
+  color: #fff;
+  opacity: 0.4;
+}
+.footer .grid .form input[type=submit] {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 300;
+}
+.footer .grid .form div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer .grid .form div p {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+.footer .grid .form div input[type=checkbox] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+.footer .grid .form div input[type=checkbox]::before {
+  content: "";
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: var(--header-bg);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  line-height: 40px;
+}
+.footer .grid .form div input[type=checkbox]:checked::before {
+  content: "✓";
+  text-align: center;
+  color: #fff;
+  font-size: 2.3rem;
+  line-height: 40px;
+}/*# sourceMappingURL=footer.css.map */

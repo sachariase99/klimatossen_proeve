@@ -1,0 +1,42 @@
+.header {
+  position: relative;
+}
+.header img {
+  width: 100%;
+}
+.header .text {
+  position: absolute;
+  top: 0;
+}
+.header h1 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 7rem;
+  font-weight: 600;
+  margin: 0 30px;
+}
+.header h1 span {
+  color: var(--nav-bg);
+}
+.header h3 {
+  position: absolute;
+  left: 63%;
+  color: white;
+  text-transform: uppercase;
+  font-size: 2rem;
+  top: 80%;
+  font-weight: 300;
+}
+.header .p-text {
+  position: absolute;
+  bottom: 10%;
+  right: 30px;
+  text-align: end;
+  color: var(--header-bg);
+  font-weight: 600;
+  font-style: italic;
+  font-size: 2rem;
+}
+.header .p-text p:nth-child(2) {
+  margin: 20px 0 20px 0;
+}/*# sourceMappingURL=header.css.map */
